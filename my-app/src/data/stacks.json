@@ -1,0 +1,115 @@
+{
+    "children": [
+        {
+            "children": [],
+            "heapAlloc": {
+                "total": {
+                    "total_memory": 28,
+                    "typed_memory": [
+                        {
+                            "type": "int",
+                            "value": 28
+                        }
+                    ]
+                },
+                "vars": [
+                    {
+                        "name": "a",
+                        "type": "int",
+                        "value": 28
+                    }
+                ]
+            },
+            "name": "foo",
+            "value": 1.8835067749023438e-05
+        },
+        {
+            "children": [],
+            "heapAlloc": {
+                "total": {
+                    "total_memory": 55,
+                    "typed_memory": [
+                        {
+                            "type": "str",
+                            "value": 55
+                        }
+                    ]
+                },
+                "vars": [
+                    {
+                        "name": "b",
+                        "type": "str",
+                        "value": 55
+                    }
+                ]
+            },
+            "name": "bar",
+            "value": 6.9141387939453125e-06
+        },
+        {
+            "children": [],
+            "heapAlloc": {
+                "total": {
+                    "total_memory": 0,
+                    "typed_memory": []
+                },
+                "vars": []
+            },
+            "name": "__init__",
+            "value": 3.814697265625e-06
+        },
+        {
+            "children": [],
+            "heapAlloc": {
+                "total": {
+                    "total_memory": 0,
+                    "typed_memory": []
+                },
+                "vars": []
+            },
+            "name": "setX",
+            "value": 4.0531158447265625e-06
+        },
+        {
+            "children": [],
+            "heapAlloc": {
+                "total": {
+                    "total_memory": 0,
+                    "typed_memory": []
+                },
+                "vars": []
+            },
+            "name": "getX",
+            "value": 3.0994415283203125e-06
+        }
+    ],
+    "heapAlloc": {
+        "total": {
+            "total_memory": 76,
+            "typed_memory": [
+                {
+                    "type": "CustomClass",
+                    "value": 48
+                },
+                {
+                    "type": "int",
+                    "value": 28
+                }
+            ]
+        },
+        "vars": [
+            {
+                "name": "custom_class",
+                "type": "CustomClass",
+                "value": 48
+            },
+            {
+                "name": "x",
+                "type": "int",
+                "value": 28
+            }
+        ]
+    },
+    "name": "main",
+    "value": 5.412101745605469e-05
+}
